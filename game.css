@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --winning-blocks: #0b172a;
+}
+body {
+  color: rgb(200, 108, 2);
+  font-family: "MV Boli", cursive;
+}
+h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+}
+.container {
+  padding: 40px;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #132645;
+}
+#board {
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(200, 108, 2);
+  font-size: 100px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+.box:nth-child(3n) {
+  border-right: none;
+}
+.box:nth-child(6) ~ .box {
+  border-bottom: none;
+}
+#reset {
+  background-color: rgb(200, 108, 2);
+  color: #132645;
+  border: 3;
+  border-color: rgb(200, 108, 2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
