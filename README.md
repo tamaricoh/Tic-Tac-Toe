@@ -2,11 +2,9 @@
 
 ## **A simple tic-tac-toe game**
 
-### Who
+### What
 
 This is my first project in which I combined work with CSS, HTML and JS, which I learned by myself.
-
-### Why
 
 I wanted to design and build a project that would include listening to user's actions.
 
