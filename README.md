@@ -10,4 +10,4 @@ I wanted to design and build a project that would include listening to user's ac
 
 ### How
 
-In order to run this project, all you need is to open those three file in VS Code and run the HTML file with Live Server (if Life Server is installed on your VS Code).
+In order to run this project, all you need is to open those three files in VSC and run the HTML file with Live Server (if Life Server is installed on your VSC).
